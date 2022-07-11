@@ -1,12 +1,16 @@
-.about__main h1 {
-text-align: center;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
 }
 
 .navbar {
@@ -46,7 +50,7 @@ text-align: center;
 
 .navbar__links { 
 
-    color: white;
+    color: plum;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,7 +60,8 @@ text-align: center;
 }
 
 .navbar__btn {
-    color: white;
+
+    color: plum;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,6 +101,18 @@ text-align: center;
     transition: all 0.3s ease;
 }
 
+.scripts button {
+    border-radius: 25px;
+    border: 5px red;
+    background-color: rgb(18,37,57);
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+}
+
 .scrollbar-hidden::-webkit-scrollbar {
     display: none;
   }
@@ -104,48 +121,29 @@ text-align: center;
     display: none;
 }
 
-.about {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
+h1 {
+    padding: 0%;
+    margin: none;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
 }
 
-.about__main iframe{
-    background-size: 100%;
-    margin-bottom: 5rem;
+
+.scripts a {
+    border-radius: 25px;
+    background-color: rgb(72,103,135);
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    border-radius: 2px;
 }
 
-.about__text h1 {
-    background-color: gray;
-    background-image: linear-gradient(
-        to right,
-     darkgray 0%,
-      Lightblue 100%
-
-        );
-        background-size: 100%;
-        margin-bottom: 2.5rem;
-        font-size: 2.5rem;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
-}
-
-.about__text h2 {
-    background-color: white;
-    background-image: white;
-        background-size: 100%;
-        margin-bottom: 5rem;
-        font-size: 2rem;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
-}
-
-.about__main h1 {
+.scripts button1 {
+    padding: 20px;
+    background-color: rgb(72,103,135);
+    text-decoration: none;
+    font-size: 2rem;
     color: white;
 }
+
